@@ -13,7 +13,8 @@ window.addEventListener('scroll', () => {
 
     if (position > 10) {
         navbar.style.backgroundColor = 'rgba(0,0,0,0.7)';
-    } else{
+    }
+    else{
         navbar.style.backgroundColor = "transparent"
     }
 
