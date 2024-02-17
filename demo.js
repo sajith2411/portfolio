@@ -4,17 +4,18 @@ const icon = document.querySelector(".icon")
 
 icon.addEventListener("click", () => {
     navbar.classList.toggle("active")
+
 });
 
 
 window.addEventListener('scroll', () => {
-
+  
     const position = window.scrollY
 
     if (position > 10) {
         navbar.style.backgroundColor = 'rgba(0,0,0,0.7)';
-    }
-    else{
+        
+    } else{
         navbar.style.backgroundColor = "transparent"
     }
 
